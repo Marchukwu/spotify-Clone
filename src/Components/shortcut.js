@@ -3,8 +3,9 @@ import "../styles/RightMenu.css";
 import { FaCrown, FaBell, FaRegHeart, FaSun, FaCogs } from "react-icons/fa";
 import Profile from "../img/profile.jpg";
 import { TiWeatherSnow, TiStarFullOutline, } from "react-icons/ti";
-import { GiGuitar,  } from "react-icons/gi";
+import { GiGuitar, GiTrumpet,  } from "react-icons/gi";
 import { HiMusicNote,  } from "react-icons/hi";
+import { CgPiano,  } from "react-icons/cg";
 import {Button }from "../Components/Button"
 
 function Shortcut() {
@@ -18,8 +19,8 @@ function Shortcut() {
       <Button icon = < TiStarFullOutline /> name= "Hop" />
       <Button icon= < GiGuitar /> name= "Accoustic" />
       <Button icon= < HiMusicNote /> name= "Indie Pop" />
-      <Button icon={"Menu"} name= "Piano Blues" />
-      <Button icon={"Menu"} name= "Jazz" />
+      <Button icon=< CgPiano />name= "Piano Blues" />
+      <Button icon=< GiTrumpet /> name= "Jazz" />
 </div>
 
 

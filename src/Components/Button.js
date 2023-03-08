@@ -1,4 +1,4 @@
-// import "../styles/LeftMenu.css";
+import "../styles/RightMenu.css";
 
 function Button({ icon, name }) {
   return (
