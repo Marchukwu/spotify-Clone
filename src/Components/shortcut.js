@@ -11,9 +11,9 @@ import {Button }from "../Components/Button"
 function Shortcut() {
   return (
     <div className="ShortcutButtonContainer">
-<h4>
+<h2>
     Shortcut
-</h4>
+</h2>
 <div className="ButtonContainers">
 <Button icon = < TiWeatherSnow /> name= "Chill Hits" />
       <Button icon = < TiStarFullOutline /> name= "Hop" />

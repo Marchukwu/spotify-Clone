@@ -1,11 +1,12 @@
 import React from "react";
-import artist from "../img/artist.jpg";
+// import artist from "../img/artist.jpg";
+import bg1 from "../img/bg1.jpg"
 import check from "../img/check.png";
 import { FaEllipsisH, FaHeadphones, FaCheck } from "react-icons/fa";
 function Banner() {
   return (
     <div className="Banner">
-      <img src={artist} alt="" className="bannerImg" />
+      <img src={bg1} alt="" className="bannerImg" />
 
       <div className="content">
         <div className="breadCrump">

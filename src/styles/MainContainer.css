@@ -6,12 +6,90 @@
   /* background: rgba(34, 34, 34, 0.6); */
   backdrop-filter: blur(10px);
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  
 }
 
-.Banner {
-  height: 300px;
-  position: relative;
+.upperDiv {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between; 
 }
+
+.upperDiv .arrowIcon {
+  /* margin: 20px; */
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.upperDiv .arrowIcon i {
+  margin-top: 20px ;
+  justify-content: center;
+  width: 50px;
+}
+
+
+.searchBox {
+  width: 70%;
+  height: 45px;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 27%;
+  color: white;
+  overflow: hidden;
+  border-radius: 25px;
+  justify-content: flex-end;
+}
+
+.searchBox input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: white;
+
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+  padding-left: 45px;
+  color: #f1f1f1;
+  font-weight: bold;
+  font-size: 14px;
+
+}
+
+.searchBox input::placeholder {
+  color: #848484;
+}
+
+.searchBox i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 20px;
+  color: black;
+}
+
+.whatHot , .whatHotHeading {
+margin-left: 20px;
+}
+
+.whatHot {
+  color: #848484;
+}
+
+.whatHot i {
+  color: rgb(250, 51, 1);
+}
+
+
+.Banner {
+  height: 250px;
+  position: relative;
+  margin: 20px;
+  }
 
 .Banner .bannerImg {
   position: absolute;
@@ -20,7 +98,8 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: grayscale(100);
+  /* filter: grayscale(100); */
+  border-radius: 25px;
 }
 
 .Banner .bottom {
@@ -29,7 +108,7 @@
   left: 0;
   width: 100%;
   height: 5rem;
-  background-image: linear-gradient(transparent, rgb(226, 222, 222));
+  background-image: linear-gradient(transparent, 270deg, rgb(226, 222, 222));
   /* rgba(0, 0, 0, 0.9) */
 }
 
@@ -203,7 +282,7 @@
 
 .AudioList .title {
   font-size: 18px;
-  color: #f1f1f1;
+  color: black;
 }
 
 .AudioList .title span {
