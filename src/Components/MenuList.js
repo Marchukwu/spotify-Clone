@@ -1,6 +1,6 @@
 import { BsFillHouseFill, BsJournalAlbum } from "react-icons/bs";
-import { BiPulse, BiChart, } from "react-icons/bi";
-import { FaBroadcastTower, FaLine, FaMicrophoneAlt, FaPodcast,  } from "react-icons/fa";
+import {  BiChart, } from "react-icons/bi";
+import { FiCompass, } from "react-icons/fi"
 
 const MenuList = [
   {
@@ -8,31 +8,18 @@ const MenuList = [
     icon: <BsFillHouseFill />,
     name: "Home",
   },
-  // {
-  //   id: 2,
-  //   icon: <BiPulse />,
-  //   name: "Discover",
-  // },
+
   {
-    id: 3,
+    id: 2,
     icon: <BiChart />,
     name: "Trend",
   },
-  {
-    id: 4,
-    icon: <FaMicrophoneAlt />,
-    name: "Artist",
+     {
+    id: 3,
+    icon: <FiCompass />,
+    name: "Feed",
   },
-  {
-    id: 5,
-    icon: <BsJournalAlbum />,
-    name: "Albums",
-  },
-  {
-    id: 6,
-    icon: <FaPodcast />,
-    name: "Podcasts",
-  },
+ 
 ];
 
 export { MenuList };

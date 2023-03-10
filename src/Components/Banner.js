@@ -10,9 +10,10 @@ function Banner() {
 
       <div className="content">
         <div className="breadCrump">
-          <p>
-            Home <span>/Popular Artist</span>
-          </p>
+          <h2>
+          Artist
+          </h2>
+          <h1>On top of the world</h1>
           <i>
             <FaEllipsisH />
           </i>
@@ -20,17 +21,17 @@ function Banner() {
 
         <div className="artist">
           <div className="left">
-            <div className="name">
+            {/* <div className="name">
               <h2>A-ha</h2>
               <img src={check} alt="" />
-            </div>
+            </div> */}
 
-            <p>
+            {/* <p>
               <i>
                 <FaHeadphones />
               </i>
               11,184,1811 <span>Monthly Listeners</span>
-            </p>
+            </p> */}
           </div>
 
           <div className="right">
@@ -39,7 +40,7 @@ function Banner() {
               <i>
                 <FaCheck />
               </i>
-              Following
+              Follow
             </a>
           </div>
         </div>
