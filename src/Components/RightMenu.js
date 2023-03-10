@@ -1,7 +1,9 @@
 import React from "react";
 import "../styles/RightMenu.css";
-import Profile from "../img/profile.jpg";
+// import Profile from "../img/profile.jpg";
 import { Shortcut } from "../Components/shortcut"
+import { FavArtist } from "./FavArtist";
+import { Profile } from "./Profile";
 
 
 function RightMenu() {
@@ -11,11 +13,12 @@ function RightMenu() {
       <Shortcut/>
       </div>
       <div className="faveArtistContainer">
-{/** favourite artiste */}
+        <FavArtist />
       </div>
       <div className="artistContainer">
-        {/* arstists container */}
+        < Profile />
       </div>
+
     </div>
   );
 }

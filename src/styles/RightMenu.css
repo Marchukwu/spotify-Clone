@@ -40,6 +40,39 @@
   justify-content: space-around;
 } */
 
+.FavArtist {
+  margin-top: 20px;
+}
+
+.FavArtist h2 {
+  margin-left: 20px;
+}
+
+.ArtistList{
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+.ArtistList .top img {
+  width: 50px !important;
+  height: 45px;
+  border-radius: 50%;
+}
+.ArtistList .bottom {
+  margin-left: 10px;
+}
+.ArtistProfile {
+  /* height: 200px; */
+  width: 230px;
+  background-color: white;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+ .ArtistProfile .Pics img{
+  margin: 20px;
+  border-radius: 10px;
+ }
+
 .rightContainer .goPro,
 .rightContainer .profile {
   display: flex;
