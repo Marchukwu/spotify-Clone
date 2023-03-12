@@ -1,4 +1,4 @@
-import { BsFillHouseFill, BsJournalAlbum } from "react-icons/bs";
+import { BsFillHouseFill,} from "react-icons/bs";
 import {  BiChart, } from "react-icons/bi";
 import { FiCompass, } from "react-icons/fi"
 
