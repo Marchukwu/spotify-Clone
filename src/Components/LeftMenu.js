@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/LeftMenu.css";
 import { FaSpotify, FaEllipsisH } from "react-icons/fa";
-import { BiSearchAlt } from "react-icons/bi";
 import { Menu } from "./Menu";
 import { MenuList } from "./MenuList";
 import {DiscoverList} from "./DiscoverList"
