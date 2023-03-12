@@ -13,7 +13,8 @@ function Banner() {
           <h2>
           Artist
           </h2>
-          <h1>On top of the world</h1>
+          <h1>On Top <br>
+          </br> Of The World</h1>
           <i>
             <FaEllipsisH />
           </i>
