@@ -1,5 +1,5 @@
 import { ArtistProfile } from "./ArtistPorfile";
-import Artist from "../img/Artist.jpg"
+import Artist from "../img/artist.jpg"
 
 function Profile (){
     return (
