@@ -1,6 +1,4 @@
-import React, { useEffect } from "react";
 import "../styles/MainContainer.css";
-import { FaUsers } from "react-icons/fa";
 import { AudioList } from "./AudioList";
 import { Banner } from "./Banner";
 import { BiSearchAlt } from "react-icons/bi";
