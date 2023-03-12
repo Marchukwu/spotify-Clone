@@ -9,7 +9,7 @@ import { useEffect, useState } from "react";
 
 function App() {
   const CLIENT_ID = "bd93c5252313480a82a8a7b7bac511e3";
-  const REDIRECT_URI = "http://localhost:3000";
+  const REDIRECT_URI = "https://spotify-clone-marchukwu.vercel.app/";
   const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize";
   const RESPONSE_TYPE = "token";
 
