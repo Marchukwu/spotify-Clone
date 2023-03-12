@@ -1,6 +1,6 @@
 import { BsGrid } from "react-icons/bs";
 import { GoCalendar, } from "react-icons/go";
-import { FaBroadcastTower, FaLine, FaMicrophoneAlt, FaPodcast,  } from "react-icons/fa";
+import { FaPodcast,  } from "react-icons/fa";
 
 const DiscoverList = [
  
