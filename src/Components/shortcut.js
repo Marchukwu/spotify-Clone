@@ -1,7 +1,5 @@
 import React from "react";
 import "../styles/RightMenu.css";
-import { FaCrown, FaBell, FaRegHeart, FaSun, FaCogs } from "react-icons/fa";
-import Profile from "../img/profile.jpg";
 import { TiWeatherSnow, TiStarFullOutline, } from "react-icons/ti";
 import { GiGuitar, GiTrumpet,  } from "react-icons/gi";
 import { HiMusicNote,  } from "react-icons/hi";
