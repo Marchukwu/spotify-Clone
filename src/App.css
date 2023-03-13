@@ -17,3 +17,28 @@
   filter: grayscale(100);
   z-index: -1;
 }
+.App{
+  background-image: url(../src/img/rex.jpg);
+}
+.loginContainer{
+align-items: center;
+justify-content: center;
+padding-top: 250px;
+padding-left: 520px;
+height: 100vh;
+width: max-content;
+}
+.loginContainer h1{
+color: aqua;
+font-family: cursive;
+font-size: 40px;
+}
+a{
+  color: orangered;
+  font-size: 25px;
+  font-weight: bold;
+}
+/* .loginContainer h1 a{
+  color: orangered;
+  font-size: 30px;
+} */
