@@ -22,14 +22,6 @@ function LeftMenu() {
           <FaEllipsisH />
         </i>
       </div>
-
-      {/* <div className="searchBox">
-        <input type="text" placeholder="Search..." />
-        <i>
-          <BiSearchAlt />
-        </i>
-      </div> */}
-
       <Menu title={"Menu"} listObject={MenuList} />
       <Menu title={"Discover"} listObject={DiscoverList} />
 

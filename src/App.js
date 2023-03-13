@@ -85,12 +85,6 @@ function App() {
         )}
 
         {token ? (
-          // <form onSubmit={searchArtists}>
-          //   <input type="text" onChange={(e) => setSearchKey(e.target.value)} />
-          //   <button type={"submit"}>Search</button>
-          // </form>
-
-          
                 <div className="App">
                   <div className=""></div>
                   <LeftMenu />
@@ -109,21 +103,5 @@ function App() {
     </div>
   );
 }
-
-
-
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <div className=""></div>
-//       <LeftMenu />
-//       <MainContainer />
-//       <RightMenu />
-
-//       <div className="background"></div>
-//     </div>
-//   );
-// }
 
 export default App;

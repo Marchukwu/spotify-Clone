@@ -21,7 +21,6 @@ function Shortcut() {
       <Button icon=< GiTrumpet /> name= "Jazz" />
 </div>
 
-
     </div>
   );
 }

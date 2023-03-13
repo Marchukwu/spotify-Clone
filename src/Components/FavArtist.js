@@ -3,7 +3,6 @@ import artistImg from "../img/profile.jpg";
 import artistImg2 from "../img/Profile1.jfif";
 import artistImg3 from "../img/Profile2.jfif";
 import artistImg4 from "../img/Profile3.jfif";
-// import artistImg from "../img/Profile1.jfif";
 import "../styles/RightMenu.css";
 
 function FavArtist (){
